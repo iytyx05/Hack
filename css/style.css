@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: #B8BECD;
+    font-family: Inter;
+}
+
+.header-nav button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: orange;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    background-color: #FB8F1D;
+}
+
+.section-1-block {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.section-1-left-block h1 {
+    font-size: 80px;
+    color: #202336;
+    font-family: Playfair Display;
+}
+
+.section-1-left-block p {
+    color: #202336;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: Inter;
+
+}
+
+.section-1-left-block button {
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: orange;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    background-color: #FB8F1D;
+}
+
+.section-1-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.section-1-right img{
+    width: 85%;
+}
+
+.section-2 {
+    display: flex;
+    padding-top: 30px;
+}
+
+.section-2-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-2-right-block h3{
+    font-size: 40px;
+}
+
+.section-2-right-block span {
+    color: #B8BECD;
+}
+
+.section-2-right-block button {
+    margin-top: 40px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: orange;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    background-color: #FB8F1D;
+}
+
+.section-3 {
+    /* display: flex; */
+    width: 100%;
+}
+
+.section-3-block1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.section-3-block2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-4 {
+    display: flex;
+    width: 100%;
+}
+
+.section-5 {
+    display: flex;
+    width: 100%;
+}
+
+.section-6 {
+    width: 100%;
+}
+
+.section-6-block1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-6-block2 {
+    display: flex;
+}
+
+.footer-block1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-block1-span {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-block2 {
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.section-3-block1-title h3{
+    font-size: 40px;
+}
+
+.section-3-block1-title button {
+    border:  none;
+    background: none;
+    color: orange;
+}
+
+.login-block {
+    display: none;  
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.5); 
+}
+
+.form-auth {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.form-auth form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-auth form input {
+    margin: 5px;
+    width: 325px;
+    height: 30px;
+}
+
+.form-auth form button {
+    margin: 0 auto;
+    width: 120px;
+    height: 27px;
+    margin-top: 20px;
+}
+
+.register-block {
+    display: none;  
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.5); 
+}
+
+.form-reg {
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.form-reg form{
+    display: flex;
+    flex-direction: column;
+}
